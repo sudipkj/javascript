@@ -41,5 +41,6 @@ for(element in obj){
 
 const array = [10,20,40,15,36,17]
 
-const newarray = array.map((ele)=> ele * 2).filter((ele)=> ele%10 == 0);
+const newarray = array.map((ele)=> ele * 2).filter((ele)=> ele%10 == 0).sort((a,b)=> a-b);
 console.log("map example ",newarray);
+
